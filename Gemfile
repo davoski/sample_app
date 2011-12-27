@@ -11,11 +11,14 @@ gem 'sqlite3-ruby', '1.2.5', :require => 'sqlite3'
 gem 'mysql2', '~> 0.2.13', :group => :production
 
 group :development do
-  gem 'rspec-rails', '2.0.1'
+  #gem 'rspec-rails', '2.0.1'
+  gem 'rspec-rails', '2.5.0'
 end
 
 group :test do
-  gem 'rspec', '2.0.1'
+  #gem 'rspec', '2.0.1'
+  #gem 'rspec', '2.5.2'
+  gem 'rspec', '2.5.0'
   gem 'webrat', '0.7.1'
 end
 
